@@ -20,7 +20,7 @@ header.Perfil{
 
 .Perfil h1{
   font-weight: 400;
-  font-size: 3.2rem;
+  font-size: 3.4rem;
   margin-bottom: 0.5rem;
 }
 
@@ -28,6 +28,21 @@ header.Perfil{
   font-weight: normal;
   font-size: 1.5rem;
   margin-top: 0;
+}
+
+.SobreMi{
+  font-size: 1.2rem;
+}
+
+.contacto{
+  display: flex;
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.contacto img{
+  width: 18px;
+  height: auto;
+  margin-left: 10px;
 }
 
 main {
@@ -38,11 +53,132 @@ main {
   flex-direction: column;
 }
 
-.SobreMi{
-  font-size: 1.2rem;
+.Habilidades{
+  width: 100%;
 }
+
 
 .Habilidades h2{
-  font-weight: 600;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2px;
+
 }
 
+.div_habilidad{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cont_habilidad{
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.cont_habilidad img{
+  width: 45px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.cont_habilidad p{
+  font-size: 1.1rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #ffffff;
+  margin: 0;
+}
+
+.python{
+  background-color: #3674A7;
+  padding: 3px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.55);
+}
+
+.javascript{
+  background-color: #D3B62A;
+  padding: 3px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.55);
+}
+
+.kotlin{
+  background-color: #0095D5;
+  padding: 3px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.55);
+}
+
+.django{
+  background-color: #092E20;
+  padding: 3px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.55);
+}
+
+.compose{
+  background-color: #092F3F;
+  padding: 3px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.55);
+}
+
+.Proyectos{
+  width: 100%;
+}
+
+.Proyectos h2{
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.info_proyecto{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.info_proyecto img{
+  width: 230px;
+  height: auto;
+}
+
+.div_tecnologias{
+  display: flex;
+}
+
+.ic_cont_habilidad{
+  width: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.ic_cont_habilidad p{
+  font-size: 0.8rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #ffffff;
+  margin: 0;
+}
+
+.ic_cont_habilidad img{
+  width: 27px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ic_python{
+  background-color: #3674A7;
+  padding: 2px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.55);
+}
