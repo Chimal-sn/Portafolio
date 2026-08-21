@@ -1,0 +1,84 @@
+/* CSS */
+.color-1 {
+  color: #d69b71;
+}
+
+.color-2 {
+  color: #e4b267;
+}
+
+.color-3 {
+  color: #f1c66a;
+}
+
+.color-4 {
+  color: #f6d08e;
+}
+
+.color-5 {
+  color: #f9e1b9;
+}
+
+/* CSS Variables */
+:root {
+  --color-1: #d69b71;
+  --color-2: #e4b267;
+  --color-3: #f1c66a;
+  --color-4: #f6d08e;
+  --color-5: #f9e1b9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+
+}
+
+#fondo_negro {
+  position: fixed;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  z-index: 9999;
+  overflow: hidden;
+
+  div {
+    width: 50%;
+    height: 100%;
+    background-color: var(--color-5);
+  }
+}
+
+body {
+  background-color: var(--color-5);
+  min-height: 100vh;
+}
+
+.header_pagina {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  nav {
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+    background-color: var(--color-1);
+    border-radius: 10px 0px 0px 10px;
+
+    a {
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-decoration: none;
+      color: var(--color-5);
+    }
+  }
+}
